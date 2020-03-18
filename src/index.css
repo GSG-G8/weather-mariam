@@ -1,13 +1,47 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://lh3.googleusercontent.com/proxy/KDMykD2-ejN0yOYc22IAPRLNuioYBESqz6WuuuljFqfiHmt1Np20rV264SOes5wfkcGlES161O04oUey7SiaEvF-x9GRlLkwQbtQVDtfQzlxhjcHWrq-AepSp-y-0rZg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  width: 80%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  height: 700px;
+  margin:100px auto;
+  border-radius: 40px;
+  background-image: url('https://emilylouiseheardart.files.wordpress.com/2014/06/sky-sunset-background-156058.jpg');
+}
+.search-input{
+  padding: 30px;
+  margin: 50px;
+  border: 1px solid skyblue;
+  border-radius: 40px;
+  width: 40%;
+  opacity: .3;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.content{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  background-image: url('https://lh3.googleusercontent.com/proxy/KDMykD2-ejN0yOYc22IAPRLNuioYBESqz6WuuuljFqfiHmt1Np20rV264SOes5wfkcGlES161O04oUey7SiaEvF-x9GRlLkwQbtQVDtfQzlxhjcHWrq-AepSp-y-0rZg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  padding: 20px;
+  color: white;
 }
